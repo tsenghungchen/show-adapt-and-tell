@@ -1,0 +1,3 @@
+[submodule "data-prepro/deep-residual-networks"]
+	path = data-prepro/deep-residual-networks
+	url = git@github.com:KaimingHe/deep-residual-networks.git
