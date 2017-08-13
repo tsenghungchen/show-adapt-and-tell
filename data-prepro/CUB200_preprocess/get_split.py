@@ -17,7 +17,7 @@ cPickle.dump(id2name, open('id2name.pkl', 'wb'))
 # generate id2caption dictionary for all images
 # please download caption data on https://github.com/reedscot/cvpr2016. 
 # CUB_CVPR16 will be created after unzipping. 
-caption_path = '../CUB_CVPR16/text_c10/'
+caption_path = './CUB_CVPR16/text_c10/'
 id2caption = {}
 for name in name2id:
     txt_name = '.'.join(name.split('.')[0:-1]) + '.txt'
