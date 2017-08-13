@@ -20,7 +20,7 @@ id2caption = {}
 description_list = []
 img_name = []
 for p in phase:
-	data_path = '../annotations/captions_%s2014.json' % p
+	data_path = './annotations/captions_%s2014.json' % p
 	data = load_json(data_path)
 	for img_info in data['images']:
 		if img_info['id'] in split_id:
@@ -45,6 +45,6 @@ out['filename2id'] = name2id
 out['id2caption'] = id2caption
 print 'Saving ...'
 print 'Numer of sentence =', len(description_list)	
-with open('../mscoco_data/K_annotation_%s2014.pkl'%desired_phase, 'w') as outfile:
+with open('./mscoco_data/K_annotation_%s2014.pkl'%desired_phase, 'w') as outfile:
 	pickle.dump(out, outfile)
 
