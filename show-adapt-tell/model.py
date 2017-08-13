@@ -6,7 +6,7 @@ import numpy as np
 from tqdm import tqdm
 from highway import *
 import copy 
-from coco_spice.pycocoevalcap.eval import COCOEvalCap
+from coco_caption.pycocoevalcap.eval import COCOEvalCap
 import pdb
 
 def calculate_loss_and_acc_with_logits(predictions, logits, label, l2_loss, l2_reg_lambda):

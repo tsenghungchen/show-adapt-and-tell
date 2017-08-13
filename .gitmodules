@@ -4,3 +4,6 @@
 [submodule "data-prepro/MSCOCO_preprocess/deep-residual-networks"]
 	path = data-prepro/MSCOCO_preprocess/deep-residual-networks
 	url = git@github.com:KaimingHe/deep-residual-networks.git
+[submodule "show-adapt-tell/coco-caption"]
+	path = show-adapt-tell/coco-caption
+	url = git@github.com:peteanderson80/coco-caption.git
