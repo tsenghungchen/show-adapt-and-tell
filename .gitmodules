@@ -1,3 +1,6 @@
-[submodule "data-prepro/deep-residual-networks"]
-	path = data-prepro/deep-residual-networks
+[submodule "data-prepro/MSCOCO_preprocess/neuraltalk2"]
+	path = data-prepro/MSCOCO_preprocess/neuraltalk2
+	url = git@github.com:karpathy/neuraltalk2.git
+[submodule "data-prepro/MSCOCO_preprocess/deep-residual-networks"]
+	path = data-prepro/MSCOCO_preprocess/deep-residual-networks
 	url = git@github.com:KaimingHe/deep-residual-networks.git

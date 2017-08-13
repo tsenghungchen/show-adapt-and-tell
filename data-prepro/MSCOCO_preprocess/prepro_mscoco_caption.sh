@@ -9,3 +9,6 @@ python preprocess_entity.py val
 python preprocess_token.py train
 python preprocess_token.py val
 python preprocess_token.py test
+mkdir -p ../CUB200_preprocess/cub_data
+ln -s mscoco_data/dictionary_5.npz ../CUB200_preprocess/cub_data/
+ln -s K_cleaned_words.npz ../CUB200_preprocess/ 

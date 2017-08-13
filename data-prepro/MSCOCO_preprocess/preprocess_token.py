@@ -58,10 +58,10 @@ def clean_words(data):
 	return dict, freq
 
 phase = sys.argv[1]
-data_path = '../mscoco_data/K_annotation_'+phase+'2014.pkl'
+data_path = './mscoco_data/K_annotation_'+phase+'2014.pkl'
 data = unpickle(data_path)
 thres = 5
-if not os.path.isfile('../mscoco_data/dictionary_'+str(thres)+'.npz'):
+if not os.path.isfile('./mscoco_data/dictionary_'+str(thres)+'.npz'):
 	# clean the words through the frequency
 	if not os.path.isfile('K_cleaned_words.npz'):
 		dict, freq = clean_words(data)
@@ -88,9 +88,9 @@ if not os.path.isfile('../mscoco_data/dictionary_'+str(thres)+'.npz'):
         idx2word[str(len(idx2word.keys()))] = u'<NOT>'
 	print 'Threshold of word fequency =', thres
 	print 'Total words in the dictionary =', len(word2idx.keys())
-	np.savez('../mscoco_data/dictionary_'+str(thres), word2idx=word2idx, idx2word=idx2word)
+	np.savez('./mscoco_data/dictionary_'+str(thres), word2idx=word2idx, idx2word=idx2word)
 else:
-	tem = np.load('../mscoco_data/dictionary_'+str(thres)+'.npz')
+	tem = np.load('./mscoco_data/dictionary_'+str(thres)+'.npz')
 	word2idx = tem['word2idx'].item(0)
 	idx2word = tem['idx2word'].item(0)
 
@@ -151,6 +151,6 @@ tokenized_caption_info['tokenized_caption_list'] = np.asarray(tokenized_caption_
 tokenized_caption_info['caption_list'] = np.asarray(caption_list)
 tokenized_caption_info['filename_list'] = np.asarray(filename_list)
 print 'Number of sentence =', num_sentence
-with open('../mscoco_data/tokenized_'+phase+'_caption.pkl', 'w') as outfile:
+with open('./mscoco_data/tokenized_'+phase+'_caption.pkl', 'w') as outfile:
 	pickle.dump(tokenized_caption_info, outfile)
 
