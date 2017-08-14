@@ -11,7 +11,7 @@ This is the official code for the paper
 [Jianlong Fu](https://www.microsoft.com/en-us/research/people/jianf/),
 [Min Sun](http://aliensunmin.github.io/)
 <br>
-Presented at [ICCV 2017](http://iccv2017.thecvf.com/)
+To appear in [ICCV 2017](http://iccv2017.thecvf.com/)
 
 
 <div align='center'>
