@@ -100,7 +100,7 @@ Here are some example results where the captions are generated from these models
 	</br>
 	TGIF: A plane is flying over a field.
 	</br>
-	Flickr30k: A large airplane is sitting on a runway.	
+	Flickr30k: A large airplane is sitting on a runway.	</div>
 </td>
 </tr>
 </table>
@@ -118,7 +118,7 @@ Here are some example results where the captions are generated from these models
 	</br>
 	TGIF: A traffic light is hanging on a pole.
 	</br>
-	Flickr30k: A street sign is lit up in the dark.	
+	Flickr30k: A street sign is lit up in the dark.	</div>
 </td>
 </tr>
 </table>
@@ -136,7 +136,7 @@ Here are some example results where the captions are generated from these models
 	</br>
 	TGIF: A dog is looking at something in the mirror.
 	</br>
-	Flickr30k: A black dog is looking out of the window.	
+	Flickr30k: A black dog is looking out of the window.	</div>
 </td>
 </tr>
 </table>
@@ -154,7 +154,7 @@ Here are some example results where the captions are generated from these models
 	</br>
 	TGIF: A man is doing a trick on a skateboard.
 	</br>
-	Flickr30k: A man in a blue shirt is doing a trick on a skateboard.	
+	Flickr30k: A man in a blue shirt is doing a trick on a skateboard.	</div>
 </td>
 </tr>
 </table>
