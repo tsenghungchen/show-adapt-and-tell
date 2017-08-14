@@ -12,11 +12,7 @@ rm train2014.zip
 rm val2014.zip
 rm test2014.zip
 cd ..
-mkdir resnet_model
-cd resnet_model
 # please download the pretrained ResNet-101 model at https://github.com/KaimingHe/deep-residual-networks
-cd ..
 mkdir mscoco_data
-ln -s mscoco_data ../../show-adapt-tell/data
 # extract resnet feature and pack in pickle format
 python extract_resnet_coco.py --def deep-residual-networks/prototxt/ResNet-101-deploy.prototxt --net resnet_model/ResNet-101-model.caffemodel --gpu 0
