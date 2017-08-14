@@ -29,7 +29,7 @@ flags.DEFINE_boolean("load_pretrain", True, "Load the pretraining")
 flags.DEFINE_boolean("is_train", True, "True for training, False for testing [False]")
 
 # Setting from Self-critical Sequence Training for Image Captioning
-tf.app.flags.DEFINE_float('init_lr', 5e-5, '')	# follow IBM's paper
+tf.app.flags.DEFINE_float('init_lr', 5e-4, '')	# follow IBM's paper
 tf.app.flags.DEFINE_float('lr_decay', 0.8, 'learning rate decay factor')
 tf.app.flags.DEFINE_float('lr_decay_every', 6600, 'every 3 epoch 3*2200')
 tf.app.flags.DEFINE_float('ss_ascent', 0.05, 'schedule sampling')
