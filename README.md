@@ -88,43 +88,36 @@ Here are some example results where the captions are generated from these models
 
 <table border=1>
 <tr>
-<td>
-
-	<div align='center'>
+	<td>	
 	<img src='images/im6795.jpg' height="185px">
-	</div>
+	</br>
 	MSCOCO: A large air plane on a run way.
 	</br>
 	CUB-200-2011: A large white and black airplane with a large beak.
 	</br>
 	TGIF: A plane is flying over a field.
 	</br>
-	Flickr30k: A large airplane is sitting on a runway.	
-</td>
-<td>
-
-	<div align='center'>
+	Flickr30k: A large airplane is sitting on a runway.
+	</td>
+	<td>
 	<img src='images/im11063.jpg' height="185px">
-	</div>
+	</br>
 	MSCOCO: A traffic light is seen in front of a large building.
 	</br>
 	CUB-200-2011: A yellow traffic light with a yellow light.
 	</br>
 	TGIF: A traffic light is hanging on a pole.
 	</br>
-	Flickr30k: A street sign is lit up in the dark.
-	
-</td>
+	Flickr30k: A street sign is lit up in the dark
+	</td>
 </tr>
 </table>
 
 <table border=1>
 <tr>
-<td>
-
-	<div align='center'>
+	<td>
 	<img src='images/im22197.jpg' height="185px">
-	</div>
+	</br>
 	MSCOCO: A black dog sitting on the ground next to a window.
 	</br>
 	CUB-200-2011: A black and white dog with a black head.
@@ -132,12 +125,10 @@ Here are some example results where the captions are generated from these models
 	TGIF: A dog is looking at something in the mirror.
 	</br>
 	Flickr30k: A black dog is looking out of the window.
-</td>
-<td>
-
-	<div align='center'>
+	</td>
+	<td>	
 	<img src='images/im270.jpg' height="185px">
-	</div>
+	</br>
 	MSCOCO: A man riding a skateboard up the side of a ramp.
 	</br>
 	CUB-200-2011: A man riding a skateboard on a white ramp.
@@ -145,7 +136,7 @@ Here are some example results where the captions are generated from these models
 	TGIF: A man is doing a trick on a skateboard.
 	</br>
 	Flickr30k: A man in a blue shirt is doing a trick on a skateboard.
-</td>
+	</td>
 </tr>
 </table>
 
