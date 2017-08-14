@@ -85,7 +85,6 @@ Download all pretrained and adaption models:
 ### Example Results
 Here are some example results where the captions are generated from these models:
 
-<center>
 
 <table border=1>
 <tr>
@@ -102,13 +101,6 @@ Here are some example results where the captions are generated from these models
 	</br>
 	Flickr30k: A large airplane is sitting on a runway.	
 </td>
-</tr>
-</table>
-</center>
-
-<center>
-<table border=1>
-<tr>
 <td>
 
 	<div align='center'>
@@ -125,9 +117,7 @@ Here are some example results where the captions are generated from these models
 </td>
 </tr>
 </table>
-</center>
 
-<center>
 <table border=1>
 <tr>
 <td>
@@ -143,13 +133,6 @@ Here are some example results where the captions are generated from these models
 	</br>
 	Flickr30k: A black dog is looking out of the window.
 </td>
-</tr>
-</table>
-</center>
-
-<center>
-<table border=1>
-<tr>
 <td>
 
 	<div align='center'>
@@ -161,12 +144,11 @@ Here are some example results where the captions are generated from these models
 	</br>
 	TGIF: A man is doing a trick on a skateboard.
 	</br>
-	Flickr30k: A man in a blue shirt is doing a trick on a skateboard.	</div>
+	Flickr30k: A man in a blue shirt is doing a trick on a skateboard.
 </td>
 </tr>
 </table>
 
-</center>
 
 
 ## Training
