@@ -73,12 +73,9 @@ for i in split:
 if not os.path.isfile('cub_data/dictionary_'+str(thres)+'.npz'):
     pdb.set_trace()
     # clean the words through the frequency
-    if not os.path.isfile('cleaned_words.npz'):
-        dict, freq = clean_words(data)
-    else:
-        words = np.load('cleaned_words.npz')
-        dict = words['dict'].item(0)
-        freq = words['freq'].item(0)
+    words = np.load('K_cleaned_words.npz')
+    dict = words['dict'].item(0)
+    freq = words['freq'].item(0)
     idx2word = {}
     word2idx = {}
     idx = 1
